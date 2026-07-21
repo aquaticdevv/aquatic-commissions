@@ -27,6 +27,12 @@
 
         <form action="https://formspree.io/f/xykrpndn" method="POST">
 
+            <input
+                type="hidden"
+                name="_next"
+                value="https://aquaticdevv.github.io/aquatic-commissions/frontend/thanks.html"
+            >
+
             <label for="discord">
                 What is your Discord username?
             </label>
@@ -35,7 +41,7 @@
                 type="text"
                 id="discord"
                 name="discord"
-                placeholder="example: aquaticdev"
+                placeholder="example: aquatic67"
                 required
             >
 
@@ -56,9 +62,7 @@
 
             <select id="payment-method" name="payment-method" required>
                 <option value="">Select an option</option>
-                <option value="paypal">PayPal</option>
-                <option value="venmo">Venmo</option>
-                <option value="cash-app">Cash App</option>
+                <option value="discord-nitro">Discord Nitro</option>
             </select>
 
             <label for="idea">
